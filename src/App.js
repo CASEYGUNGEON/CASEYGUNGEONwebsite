@@ -8,7 +8,7 @@ import {
 import Homepage from "./Homepage";
 import Smokeyocity from "./smokeyocity/Smokeyocity";
 import TextGame from "./textgame/TextGame";
-import CardbackPage from "./cardbacks/CardbackPage";
+import ImagePage from "./images/ImagePage";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
 		<Router basename="/">
 			<Routes>
 				<Route exact path="/Smokeyocity" element={<Smokeyocity />} />
-				<Route exact path="/cardbacks" element={<CardbackPage />} />
+				<Route exact path="/images" element={<ImagePage />} />
 				<Route exact path="/textgame" element={<TextGame />} />
 				<Route exact path="*" element={<Homepage/>} />
 			</Routes>
