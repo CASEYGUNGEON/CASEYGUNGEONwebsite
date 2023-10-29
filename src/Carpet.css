@@ -1,0 +1,27 @@
+.Carpet {
+	background-image: url("carpetsymmetrical.svg");
+	background-color: #0b0b0b;
+	color: cyan;
+	height: 100vh;
+	width: 100vw;
+	background-size: 50px 50px;
+	background-position: center;
+	background-repeat: repeat;
+	overflow: hidden;
+}
+
+a.Carpet:link {
+	color:cyan;
+}
+
+a.Carpet:hover {
+	color:yellow;
+}
+
+a.Carpet:visited {
+	color:red;
+}
+
+.center {
+	text-align: center;
+}

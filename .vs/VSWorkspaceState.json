@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\textgame",
+    "\\src\\textgame\\Data",
+    "\\src\\textgame\\Data\\Events",
+    "\\src\\textgame\\Data\\Events\\SimpleEvent",
+    "\\src\\textgame\\Data\\Locations",
+    "\\src\\textgame\\Objects"
+  ],
+  "SelectedNode": "\\src\\textgame\\Data\\Locations\\City.js",
+  "PreviewInSolutionExplorer": false
+}
