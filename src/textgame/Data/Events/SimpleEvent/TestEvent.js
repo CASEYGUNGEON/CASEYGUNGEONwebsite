@@ -16,4 +16,4 @@ var TestEvent = new SimpleEvent(
     }
 );
 
-export default { TestEvent, Wave };
+export { TestEvent, Wave };

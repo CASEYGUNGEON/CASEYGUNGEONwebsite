@@ -1,9 +1,13 @@
 import { Combat } from "./Combat";
-import TestEvent from "./SimpleEvent/TestEvent";
+import { TestEvent, Wave } from "./SimpleEvent/TestEvent";
 
-const dict = {
+const eventDict = {
     "combat": Combat,
     "testevent": TestEvent,
 };
 
-export default dict;
+const actionDict = {
+	"wave": Wave,
+};
+
+export { eventDict, actionDict };

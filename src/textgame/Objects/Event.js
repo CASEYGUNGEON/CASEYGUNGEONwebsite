@@ -40,7 +40,9 @@ export class Event {
     }
 
     getDatum(datum) {
-        return this.data[datum];
+		if(this.data[datum])
+			return this.data[datum];
+        return null;
     }
 
     setDatum(key, val) {
@@ -51,7 +53,7 @@ export class Event {
         return (
             <div>
                 {this.getDescription()}
-                <ButtonGrid buttonWidth="100" buttonHeight="10" width="40vw" rows={1} statearr={statearr} type="eventAction" options={this.getOptions()} />
+                <ButtonGrid buttonWidth="100" buttonHeight="10" width="40vw" rows={1} statearr={statearr} type="eventAction" options={this.getActions()} />
             </div>);
     }
 }

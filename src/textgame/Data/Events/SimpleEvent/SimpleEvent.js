@@ -22,7 +22,5 @@ export class SimpleEvent extends Event {
         this.data['extraDesc'] = '\n' + str;
     }
 
-    display(stateArr) {
-        return this.description + this.data['extraDesc'];
-    }
+    
 }
