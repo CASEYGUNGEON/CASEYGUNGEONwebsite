@@ -7,12 +7,12 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
-import folderInfo from './files.json';
+import folderInfo from './extrafiles.json';
 
 
 const folderList = folderInfo.map(item => [item.name, item.path]);
 
-const files = require.context("./files", true);
+const files = require.context("./extrafiles", true);
 const fileNames = files.keys();
 const fileList = fileNames.map(file => files(file));
 
@@ -32,7 +32,7 @@ const ImageDisplay = (props) => {
 }
 
 
-const ImagePage = (props) => {
+const ExtraImagePage = (props) => {
     const [category, setCategory] = useState([]);
 
 	const [currentFileNames, setCurrentFileNames] = useState([]);
@@ -80,4 +80,4 @@ const ImagePage = (props) => {
     );
 };
 
-export default ImagePage;
+export default ExtraImagePage;

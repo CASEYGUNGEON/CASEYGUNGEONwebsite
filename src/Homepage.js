@@ -31,7 +31,7 @@ const Homepage = () => {
 			<div className="Carpet">
 				<header className="center">
 					<a href='https://twitter.com/skdaffle'><img src={amn} title='art by skdaffle' width="100" height="100" alt="art by skdaffle" /></a>
-					<a style={{ fontSize: 30, fontWeight: 'bold' }}>Welcome to CASEYGUNGEON.com!</a>
+					<b style={{ fontSize: 30, fontWeight: 'bold' }}>Welcome to CASEYGUNGEON.com!</b>
 					<a href='https://twitter.com/skdaffle'><img src={amn} title='art by skdaffle' alt='art by skdaffle' width="100" height="100" /></a>
 					<br/>
 				</header>
@@ -45,9 +45,10 @@ const Homepage = () => {
 					</div>
 				</div>
 				<footer className="center">
+					<span style={{ backgroundColor: 'black', width:'50%', margin:'auto'}}><b>Points of Interest:</b></span><br />
 					<a style={{color:"white"}} href="https://github.com/CASEYGUNGEON" title='Github'><GitHubIcon style={{fontSize: 50}}/></a>
 					<a style={{color:"red"}} href="https://caseygungeon.itch.io/" title='itch.io'><StorefrontIcon style={{fontSize: 50}}/></a>
-					<a style={{color:"gray"}} href="https://toyhou.se/CASEYGUNGEON/characters" title='Toyhou.se'><HouseIcon style={{fontSize: 50}}/></a>
+					<a style={{color:"gray"}} href="https://toyhou.se/SWORDDOGGIRL/characters" title='Toyhou.se'><HouseIcon style={{fontSize: 50}}/></a>
 				</footer>
 			</div>
 		</ThemeProvider>
